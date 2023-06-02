@@ -1,0 +1,30 @@
+/// <%= kebabName %> theme
+/// ============================================================================
+/// This is your theme file. Other elioSinners can use this theme by importing
+/// it into their `judge.scss` file. They provide their own settings.
+///
+/// @example
+///
+/// @import '@elioway/<%= kebabName %>/stylesheets/theme';
+/// ============================================================================
+// import your elioSin functions and mixins here.
+#{$container} {
+  h1 {
+    padding-left: $personal-space;
+  }
+  footer {
+    background: $god-blushed;
+    margin-top: $personal-space * 5;
+    border-top: $god-border;
+  }
+  figure {
+    border: none;
+  }
+  pre {
+    background: none;
+    color: $heaven-color;
+    font-size: $god-spoke;
+  }
+  @import "button/pillar";
+  @import "nav/hell";
+}

@@ -1,0 +1,44 @@
+/* notebook > header {
+  background-color: rgba(51,51,51,.9);
+  border: none;
+}
+
+notebook > header > tabs > tab {
+  background-color: rgba(80,80,80,.9);
+  border-radius: 0;
+  color: #ccc;
+  border: 0;
+  margin: 0 1px;
+  border-width: 0 1px;
+  min-width: 100px;
+  box-shadow: none;
+}
+
+notebook > header > tabs > tab:checked {
+  background: rgba(0,0,0,.8);
+  color: orange;
+} */
+
+
+/* applies to all tabs, both in tilda main window and in the Preferences wizard */
+notebook tab {
+  background-color: #000000;
+  border-radius: 0;
+  color: #ccc;
+}
+/* applies only to active tabs of the main window */
+window#Main notebook tab:checked {
+  background-color: #dca3a3;
+  color: #ffffff;
+}
+/* applies to all tabs in the Preferences wizard, but not in the main window */
+dialog#Wizard notebook tab {
+  background-color: #333;
+  border-radius: 0;
+  color: #ccc;
+  border: 0;
+  margin: 0 1px;
+  border-width: 0 1px;
+  min-width: 100px;
+  box-shadow: none;
+}

@@ -1,0 +1,52 @@
+main > pre {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 10px 10px 0 10px;
+}
+main > pre > button {
+  margin-bottom: 0;
+  padding: 1px 7px 1px 7px;
+  border-width: 2px 2px 2px 0;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 0;
+}
+main > pre > button.selected {
+  padding-top: 7px;
+  border-color: #555;
+  border-bottom: 0;
+}
+main > pre > button:hover {
+  padding-top: 7px;
+  border-color: white;
+  border-bottom: 0;
+}
+main > aside {
+  border: 1px darkgrey solid;
+  background-color: lightgrey;
+  margin: 0 0 12px 0;
+  padding: 5px;
+}
+main > form {
+  font-weight: bold;
+  color: black;
+}
+main > form > button {
+  font-size: 70%;
+  float: right;
+}
+main > form > h2 {
+  font-size: 250%;
+  margin: 0;
+  padding: 0 0 15px 0;
+  text-transform: lowercase;
+  line-height: 0.9;
+  white-space: nowrap;
+  border-bottom: solid 1px lightgrey;
+}
+main > form > h2 > img {
+  margin: 0;
+  padding: 0;
+  height: 90px;
+  width: auto;
+}

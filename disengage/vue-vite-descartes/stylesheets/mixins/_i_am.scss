@@ -1,0 +1,19 @@
+/// Example mixin
+///
+/// A later dependant could use this to test for **<%= kebabName %>** as a requirement.
+///
+/// @example
+/// @import './node_modules/@elioway/<%= kebabName %>/stylesheets/mixins/i_am';
+/// @include test('@mixin example()') {
+///   @include assert('i am <%= kebabName %>') {
+///     @include output {
+///       @include i_am();
+///     }
+///     @include expect {
+///       content: 'i am <%= kebabName %>';
+///     }
+///   }
+/// }
+@mixin i_am() {
+  content: "i am <%= kebabName %>";
+}

@@ -1,0 +1,12 @@
+// Example function
+//
+// A later dependant could use this to test for **<%= kebabName %>** as a requirement.
+///
+/// @example
+/// @import './node_modules/@elioway/<%= kebabName %>/stylesheets/functions/i_am';
+/// @include test('i am <%= kebabName %>') {
+///   @include assert-equal(i_am(), '<%= kebabName %>');
+/// }
+@function i_am() {
+  @return "<%= kebabName %>";
+}

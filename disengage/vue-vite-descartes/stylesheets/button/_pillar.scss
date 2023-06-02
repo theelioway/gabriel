@@ -1,0 +1,15 @@
+button {
+  > a {
+    display: block;
+    padding: 3px 120px 3px 10px !important;
+    text-align: center;
+    // margin: $inline-padding $personal-space;
+    color: blue;
+    width: 100% !important;
+  }
+}
+button:hover {
+  > a {
+    color: white;
+  }
+}

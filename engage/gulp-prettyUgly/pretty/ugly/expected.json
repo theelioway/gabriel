@@ -1,0 +1,116 @@
+[
+  {
+    "h1": [
+      {
+        "fieldName": "name",
+        "fieldValue": "IAmTheWizard",
+        "fleshOutBeliever": "h1",
+        "fleshOutTag": "h1"
+      }
+    ]
+  },
+  {
+    "p": [
+      {
+        "fieldName": "description",
+        "fieldValue": "A Grand Wizard",
+        "fleshOutBeliever": "p",
+        "fleshOutTag": "p"
+      }
+    ]
+  },
+  {
+    "p": [
+      {
+        "fieldName": "disambiguatingDescription",
+        "fieldValue": "A Master Wizard",
+        "fleshOutBeliever": "p",
+        "fleshOutTag": "p"
+      }
+    ]
+  },
+  {
+    "form": [
+      {
+        "fieldName": "startTime",
+        "fieldValue": "2020-12-25 18:39:00",
+        "fleshOutBeliever": "form",
+        "fleshOutTag": ["label", "input"]
+      },
+      {
+        "fieldName": "endTime",
+        "fieldValue": "2020-12-25 18:40:00",
+        "fleshOutBeliever": "form",
+        "fleshOutTag": ["label", "input"]
+      }
+    ]
+  },
+  {
+    "dl": [
+      {
+        "fieldName": "actionStatus",
+        "fieldValue": "PotentialStatusType",
+        "fleshOutBeliever": "dl",
+        "fleshOutTag": ["dt", "dd"]
+      },
+      {
+        "fieldName": "bananaStatus",
+        "fieldValue": "Eaten",
+        "fleshOutBeliever": "dl",
+        "fleshOutTag": ["dt", "dd"]
+      },
+      {
+        "fieldName": "cartoonStatus",
+        "fieldValue": "Achieved!",
+        "fleshOutBeliever": "dl",
+        "fleshOutTag": ["dt", "dd"]
+      }
+    ]
+  },
+  {
+    "p": [
+      {
+        "fieldName": "url",
+        "fieldValue": "http://IAmTheWizard.Action.the.elioWay.com",
+        "fleshOutBeliever": "p",
+        "fleshOutTag": "a"
+      }
+    ]
+  },
+  {
+    "ol": [
+      {
+        "fieldName": "xrayStatus",
+        "fieldValue": "SeeThrough",
+        "fleshOutBeliever": "ol",
+        "fleshOutTag": "li"
+      },
+      {
+        "fieldName": "ychromosomeStatus",
+        "fieldValue": 1,
+        "fleshOutBeliever": "ol",
+        "fleshOutTag": "li"
+      }
+    ]
+  },
+  {
+    "ul": [
+      {
+        "fieldName": "zenStatus",
+        "fieldValue": "Calm",
+        "fleshOutBeliever": "ul",
+        "fleshOutTag": "li"
+      }
+    ]
+  },
+  {
+    "a": [
+      {
+        "fieldName": "sameAs",
+        "fieldValue": "http://Action.the.elioWay.org",
+        "fleshOutBeliever": "a",
+        "fleshOutTag": "a"
+      }
+    ]
+  }
+]

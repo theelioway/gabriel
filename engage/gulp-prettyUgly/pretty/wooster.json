@@ -1,0 +1,70 @@
+[
+  { "corg": "IBM Storage", "salesforce": "a014G00001MhJ9KQAV" },
+  { "corg": "IBM Systems Storage", "salesforce": "a014G00001MhJ9KQAV" },
+  { "corg": "IBM Analytics DS&BA SPSS", "salesforce": "a014G00001MhJA9QAN" },
+  { "corg": "IBM DS&BA", "salesforce": "a014G00001MhJA9QAN" },
+  { "corg": "IBM Analytics", "salesforce": "a014G00001MhJABQA3" },
+  { "corg": "IBM Industry", "salesforce": "a014a000000XT7vAAG" },
+  { "corg": "IBM Security", "salesforce": "a014a000000XT7wAAG" },
+  { "corg": "IBM Systems", "salesforce": "a014a000000XT7xAAG" },
+  { "corg": "IBM Watson", "salesforce": "a014a000000XT7yAAG" },
+  {
+    "corg": "IBM Analytics DS&BA Cognos Analytics",
+    "salesforce": "a014a000000XT8nAAG"
+  },
+  {
+    "corg": "IBM Analytics DS&BA Planning Analytics",
+    "salesforce": "a014a000000XT8oAAG"
+  },
+  { "corg": "IBM Analytics HDM BIGSQL", "salesforce": "a014a000000XT8pAAG" },
+  { "corg": "IBM Analytics HDM Db2", "salesforce": "a014a000000XT8qAAG" },
+  {
+    "corg": "IBM Analytics HDM Db2 for z OS",
+    "salesforce": "a014a000000XT8rAAG"
+  },
+  {
+    "corg": "IBM Analytics UGI Information Server",
+    "salesforce": "a014a000000XT8sAAG"
+  },
+  {
+    "corg": "IBM Analytics UGI Master Data Management Server",
+    "salesforce": "a014a000000XT8tAAG"
+  },
+  {
+    "corg": "IBM Cloud Digital Business Automation",
+    "salesforce": "a014a000000XT8uAAG"
+  },
+  {
+    "corg": "IBM Cloud Integration and Development",
+    "salesforce": "a014a000000XT8vAAG"
+  },
+  {
+    "corg": "IBM Cloud Management and Platform",
+    "salesforce": "a014a000000XT8wAAG"
+  },
+  {
+    "corg": "IBM Health Government Curam Social Program Management",
+    "salesforce": "a014a000000XT8xAAG"
+  },
+  {
+    "corg": "IBM Systems IBM Z Information Management Solution",
+    "salesforce": "a014a000000XT8yAAG"
+  },
+  { "corg": "IBM Systems IBM Z Mainframe", "salesforce": "a014a000000XT8zAAG" },
+  {
+    "corg": "IBM Systems Power Systems AIX",
+    "salesforce": "a014a000000XT90AAG"
+  },
+  {
+    "corg": "IBM Systems Power Systems IBM i",
+    "salesforce": "a014a000000XT91AAG"
+  },
+  {
+    "corg": "IBM Systems Power Systems Linux",
+    "salesforce": "a014a000000XT92AAG"
+  },
+  {
+    "corg": "IBM Watson Internet of Things Engineering Lifecycle Management",
+    "salesforce": "a014a000000XT93AAG"
+  }
+]

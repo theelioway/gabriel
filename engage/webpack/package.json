@@ -1,0 +1,34 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-json": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.1.1",
+    "html-webpack-plugin": "^5.2.0",
+    "nodemon": "^2.0.7",
+    "packito": "^0.5.0",
+    "prettier": "^2.2.1",
+    "reload": "^3.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "scripts": {
+    "packito": "packito --dist ./packito --nopublish",
+    "prettier": "prettier --write \"**/*.{js,json,css,scss,md,html,yaml,yml}\" \"!package.json\" \"!rollup !bundle !package\" ",
+    "rollupClean": "rm rollup/*.js",
+    "rollupBuild": "rollup -c rollup.config.js",
+    "testServe": "nodemon server-reload.js -e js,html,css",
+    "webpackBuild": "webpack --config webpack.build.js",
+    "webpackDev": "webpack serve --host 0.0.0.0 --port 8089  --config webpack.dev.js"
+  }
+}

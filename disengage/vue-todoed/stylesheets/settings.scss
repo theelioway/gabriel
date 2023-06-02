@@ -1,0 +1,54 @@
+// LAYOUT ==================
+$god-space: 3%; // the horizontal padding in all the prongs.
+$heaven-width: 20%; // prong width right (as a percentage to help scaling).
+$hell-width: 20%; // prong width left (as a percentage to help scaling).
+$personal-space: 12px; // the vertical padding between believers.
+$transition: 0.5s;
+// MEDIA BREAKS ==================
+$god-loose: 1200px; // loose - prongs divided - no overlap.
+$god-cosy: 900px; // cosy - overlap between sinners and the pillar.
+$god-tight: 600px; // tight - believers full width - piller width small margin.
+$heaven-cosy: 5%; // cosy - allow the heaven width to grow by this amount.
+$hell-cosy: 5%; // cosy - allow the hell width to grow by this amount.
+$pillar-cosy: 20%; // cosy - allow the pillar width to grow by this amount.
+// COLORS ==================
+$heaven-color: black; // dark color: mainly for bg with $pillar-color text.
+$pillar-color: black; // dark color: mainly for heading text on white bg.
+$hell-color: darkgreen; // #b62430; // dark color: mainly for bg with $pillar-color text.
+$god-color: $hell-color; // $god-color: the primary color
+$god-blushed: lighten($heaven-color, 40); // $god-color: the primary tint color
+// TEXT ==================
+$god-h1: 300%; // font size of h1.
+$god-h6: 80%; // font size of h6.
+$god-p: 120%; // font size of paragraph text.
+$god-spoke: $god-p * 1.3; // standout with big text.
+$god-head: "Montserrat"; // for heading level text.
+$god-body: $god-head; // for body level text.
+// BASICS ==================
+$god-border: 2px lighten($heaven-color, 40) solid; // general purpose border
+$inline-padding: 3px;
+$toothpaste-color: "none";
+// // BELIEVERS ==================
+$container: (main); // sin classes only affect direct children of these
+$pillar: (
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  dl,
+  div,
+  table,
+  form,
+  section,
+  pre,
+  button,
+  a,
+  footer
+); // pillar - all tags are stictly contained the same way.
+$heaven: (blockquote, summary, figure); // hangs right - gets the best views.
+$hell: (nav, aside, fieldset); // hangs left.

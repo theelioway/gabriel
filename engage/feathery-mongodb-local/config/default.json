@@ -1,0 +1,29 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "user",
+    "secret": "f1WsHdt7cf6auM/ECswrtHMYr1I=",
+    "authStrategies": ["jwt", "local"],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "userName",
+      "passwordField": "password"
+    }
+  },
+  "mongodb": "mongodb://funtyperDbUser:letmein@127.0.0.1:27017"
+}

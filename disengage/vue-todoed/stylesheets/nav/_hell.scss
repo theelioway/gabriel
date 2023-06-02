@@ -1,0 +1,10 @@
+nav {
+  background: $god-blushed;
+  color: white;
+  nav {
+    button: {
+      break-after: always;
+      border: solid red 1px !important;
+    }
+  }
+}

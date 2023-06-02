@@ -1,0 +1,54 @@
+{
+  "author": "author",
+  "description": "A playground or laboratory or stomping ground for experimenting with things, the elioWay.",
+  "name": "jeeves",
+  "title": "jeeves",
+  "version": "0.0.1",
+  "__________": "______________________________",
+  "kleio": {
+    "art": {
+      "elioName": "jeeves",
+      "pluginName": "",
+      "disambiguatingDescription": "Handed to you on a plate, the elioWay"
+    },
+    "branciaos": [
+      "jeeves",
+      "elioangels"
+    ],
+    "chisel": {
+      "Home": "elioangels"
+    },
+    "twig": {
+      "workingBranch": "main",
+      "mergeIntoBranch": "main"
+    }
+  },
+  "main": "main",
+  "scripts": {
+    "test": "mocha",
+    "prettier:hbs": "prettier  --write **/*.hbs --parser=glimmer",
+    "prettier": "prettier --write \"**/*.{js,mjs,json,scss,md,html,yaml}\" \"!package.json\""
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-prettier": "^4.0.0",
+    "jquery": "^3.6.0",
+    "lodash-es": "^4.17.21",
+    "mocha": "^9.1.3",
+    "prettier": "^2.5.1",
+    "vinyl-paths": "^4.0.0"
+  },
+  "keywords": [
+    "elioway",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "glob": "^7.2.0",
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.4"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "remove": {
+    "commitlint": true,
+    "devDependencies": "*",
+    "esm": true,
+    "files": true,
+    "husky": true,
+    "scripts": "*",
+    "type": true
+  },
+  "replace": {
+    "main": "./umd/index.js",
+    "module": "./esm/index.js"
+  },
+  "output": "./dist",
+  "publisher": {
+    "name": "npm test"
+  },
+  "copy": ["favicon.ico", "README.md"]
+}
