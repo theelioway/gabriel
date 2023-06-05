@@ -1,7 +1,7 @@
 # Quickstart
 
 - Demostrates how to consume the gulp tasks of sub folders.
-- Subject of <https://hackernoon.com/how-to-consume-and-run-gulp-tasks-in-other-files-from-a-central-gulpfile-j32n33my>
+- Subject of <https://hackernoon.com/demos-gulp-tasks-run-from-a-central-gulpfile-j32n33my>
 
 Run the following in a new folder:
 

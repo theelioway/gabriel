@@ -2,7 +2,7 @@
 
 - Quickly prettify code you've found to test.
 - Uses the **prettier** library.
-- Subject of <https://hackernoon.com/how-to-use-gulp-and-prettier-on-code-snippets-and-api-outputs-4r1f31b8>
+- Subject of <https://hackernoon.com/demos-gulp-pretty-ugly-4r1f31b8>
 
 # Usage
 
