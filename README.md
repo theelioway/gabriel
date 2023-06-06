@@ -1,4 +1,4 @@
-![](https://elioway.gitlab.io/elioangels/elio-jeeves-logo.png)
+![](./timicard.png)
 
 > Handed to you on a plate, **the elioWay**
 
@@ -30,4 +30,4 @@
 
 [MIT](license)
 
-![](apple-touch-icon.png)
+![](./appicon.png)
