@@ -9,7 +9,18 @@ git fetch --all --prune
 
 ## submodule
 
-``` `
+```
+
+## Move MASTER to MAIN
+
+```
+git branch -m master main
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+git push origin --set-upstream main
+git push origin --delete master
+git branch -D master
+git fetch --prune
+```
 
 # Add from Remote
 
