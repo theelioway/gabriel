@@ -20,7 +20,7 @@ apiRouter.use(`/Thing`, crudRouter)
 */
 "use strict"
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // console.log({ getT: "reqBody" }, req.body)
     // console.log({ getT: "reqParams" }, req.params)

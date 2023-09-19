@@ -28,7 +28,7 @@ const { logoutSuccess } = require("../utils/responseMessages")
 
 const { JWT_SECRET } = process.env
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // log.debug({ logoutT: "reqBody" }, req.body)
     // log.debug({ logoutT: "reqParams" }, req.params)

@@ -6,7 +6,7 @@
 
 ## Artwork
 
-- [art](https://publicdomainvectors.org/en/free-clipart/Life-silhouette/55054.html)
+- [art](https://publicdomainvectors.org/en/free-clipart/Life-silhouette/55054)
 - <https://publicdomainvectors.org/en/free-clipart/Metal-chain-clip-art/83531.html>
 - <https://publicdomainvectors.org/en/free-clipart/Prisoners-chain/56198.html>
 - <https://publicdomainvectors.org/en/free-clipart/Bomb-vector-silhouette/79483.html>
@@ -20,6 +20,6 @@
 
   ## Core Thanks!
 
-- [elioWay](https://elioway.gitlab.io)
+- [elioWay](https://gitlab.timitee.theElioWay.com)
 
 - [Yeoman](http://yeoman.io/)

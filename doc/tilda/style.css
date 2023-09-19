@@ -19,7 +19,6 @@ notebook > header > tabs > tab:checked {
   color: orange;
 } */
 
-
 /* applies to all tabs, both in tilda main window and in the Preferences wizard */
 notebook tab {
   background-color: #000000;

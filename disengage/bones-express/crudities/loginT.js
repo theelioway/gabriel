@@ -32,7 +32,7 @@ const {
 
 const { JWT_SECRET } = process.env
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // log.debug({ loginT: "reqBody" }, req.body)
     // log.debug({ loginT: "reqParams" }, req.params)

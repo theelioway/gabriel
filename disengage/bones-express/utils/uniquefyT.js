@@ -8,7 +8,7 @@ const keywordExtractor = require("keyword-extractor")
  * @param {*string} slimy Any string, but prefers it pre-striped like a slug.
  */
 
-module.exports = slimy => {
+module.exports = (slimy) => {
   // sorted and unslugged (if slug)
   var unslime = slug(slimy).split("-").sort().join(" ") // no stops words and uniq
 

@@ -1,4 +1,4 @@
-elioName: descartes
-pluginName: ""
+identifier: descartes
+subjectOf: ""
 disambiguatingDescription: cogito, ergo sum, the elioWay
-credits: https://en.wikipedia.org/wiki/All_the_world%27s_a_stage
+sameAs: https://en.wikipedia.org/wiki/All_the_world%27s_a_stage

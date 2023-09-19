@@ -3,8 +3,8 @@ import thingIntoFlesh from "../utils/thingIntoFlesh"
 import { cloneDeepBreaking, rePurpose, reRaw } from "./platter"
 
 export const gettersThing = {
-  weAreTheBelievers: (state, getters) => thingFromBone => {
-    let valuesBucket = thing => {
+  weAreTheBelievers: (state, getters) => (thingFromBone) => {
+    let valuesBucket = (thing) => {
       return Object.fromEntries(
         Object.entries(thing).flatMap(([k, v]) => Object.entries(v))
       )
@@ -20,10 +20,10 @@ export const gettersThing = {
     let thingsMadeFlesh = thingIntoFlesh(fleshFromBone, valuesBucketFromBone)
     return thingsMadeFlesh
   },
-  mainMenuFromBonesList: state => Object.keys(state.flesh),
-  engagedBone: state => get(state, "thing.engaged"),
-  engagedList: state => get(state, "thing.ItemList.engaged"),
-  listBoneEngagedX: state => x => {
+  mainMenuFromBonesList: (state) => Object.keys(state.flesh),
+  engagedBone: (state) => get(state, "thing.engaged"),
+  engagedList: (state) => get(state, "thing.ItemList.engaged"),
+  listBoneEngagedX: (state) => (x) => {
     console.log("listBoneEngagedX", x)
     return get(state, "thing.ItemList.engaged")
   },

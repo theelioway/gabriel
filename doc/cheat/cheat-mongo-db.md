@@ -86,7 +86,7 @@ After first installation `authorization` is `disabled` (see below), and the serv
 
 - _If you need to repeat these steps later, you'll just need to `disable` `authorization` in the `/etc/mongod.conf` file (see below), then restart mongodb, before you can create or recreate a user anonymously._
 
-```
+```shell
 mongo
 use admin
 readAnyDatabase|readWriteAnyDatabase|userAdminAnyDatabase|dbAdminAnyDatabase
@@ -102,7 +102,7 @@ Next we need to enable the `authorization`
 
 Edit `/etc/mongod.conf`, e.g. using **nano**
 
-```
+```shell
 sudo nano /etc/mongod.conf
 ```
 
@@ -115,21 +115,44 @@ security:
 
 Save and exit `mongod.conf`:
 
-```
+```shell
 sudo systemctl restart mongod
 sudo systemctl status mongod
 ```
 
-Connect and authenticate with user credentials (in our case `god`) which you have to do with `authorization: enabled` in `/etc/mongod.conf`.
+## Running issues
+
+You need a `mongod` user and `mongodb` group.
+
+```shell
+# add group
+groupadd mongodb
+
+# Do you have a user?
+cat /etc/passwd
+
+# No user?
+useradd -r -s /sbin/nologin -g mongodb mongod
+
+# User
+sudo usermod -g mongodb mongod
+
+# Grant permissions (check `/etc/mongod.conf`)
+chown -R mongod:mongodb /var/lib/mongo
+chown -R mongod:mongodb /var/log/mongodb
 
 ```
+
+Connect and authenticate with user credentials (in our case `god`) which you have to do with `authorization: enabled` in `/etc/mongod.conf`.
+
+```shell
 mongo -u god --authenticationDatabase admin -p
 ```
 
 Add **clientDbUser** user to **clientDb** (or as per client)
 
-```
-readWrite|readAnyDatabase|readWriteAnyDatabase|userAdminAnyDatabase|dbAdminAnyDatabase
+```shell
+# readWrite|readAnyDatabase|readWriteAnyDatabase|userAdminAnyDatabase|dbAdminAnyDatabase
 show dbs
 use clientDb
 show collections
@@ -142,7 +165,7 @@ db.createUser({
 
 ## Cheat commands
 
-```
+```shell
 db.auth(u, p)
 db.changeUserPassword("god", passwordPrompt())
 db.changeUserPassword("clientDbUser", passwordPrompt())
@@ -161,7 +184,7 @@ Post Install: Doesn't start or can't find it
 
 If you get an error like "I can't see a server":
 
-```
+```shell
 sudo systemctl unmask mongodb
 > Unit mongodb.service does not exist, proceeding anyway.
 sudo service mongod start
@@ -173,7 +196,7 @@ sudo service mongod start
 
 Stop the mongod process by issuing the following command:
 
-```
+```shell
 sudo service mongod stop
 ```
 
@@ -181,7 +204,7 @@ sudo service mongod stop
 
 Remove any MongoDB packages that you had previously installed.
 
-```
+```shell
 sudo apt-get purge mongodb-org*
 ```
 
@@ -189,7 +212,7 @@ sudo apt-get purge mongodb-org*
 
 Remove MongoDB databases and log files.
 
-```
+```shell
 sudo rm -r /var/log/mongodb
 sudo rm -r /var/lib/mongodb
 ```

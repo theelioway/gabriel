@@ -30,7 +30,7 @@ const {
 
 const { thingTypeMatched } = require("../utils/validations")
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // console.log({ signupT: 'req' }, req)
     // console.log({ signupT: "reqBody" }, req.body)

@@ -30,7 +30,7 @@ app
     })
   ) // .use(pino);
 
-database.dbconnect().on("error", err =>
+database.dbconnect().on("error", (err) =>
   console.log(
     {
       app: "err",

@@ -47,7 +47,7 @@ export default {
           endTime: "Asc",
         },
         filters: {
-          actionStatus: list => list.filter((l, f) => l.actionStatus === f),
+          actionStatus: (list) => list.filter((l, f) => l.actionStatus === f),
         },
       },
       // MySpecialAction: {

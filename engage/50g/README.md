@@ -38,16 +38,16 @@ If your PC isn't UNIX based, you need to know how to translate these commands to
 
 Let's F.
 
-Have to a place where you put useful, non-essential, useful-to-refer-back-to-later scripts. I have a repo called **jeeves**. It contains cheat docs, sample project,things I stole from StackOverflow, things ChatGPT wrote for me, and scripts I wrote - in many runtimes - all "handed to me on a plate" for when I need them. I'm a traveller. Sometimes I don't have the internet.
+Have to a place where you put useful, non-essential, useful-to-refer-back-to-later scripts. I have a repo called **gabriel**. It contains cheat docs, sample project,things I stole from StackOverflow, things ChatGPT wrote for me, and scripts I wrote - in many runtimes - all "handed to me on a plate" for when I need them. I'm a traveller. Sometimes I don't have the internet.
 
-**jeeves** is my StackTrickle. You should make your own **jeeves**.
+**gabriel** is my StackTrickle. You should make your own **gabriel**.
 
-The root folder for my collection of useful, non-essential, useful-to-refer-back-to-later scripts is `cd ~/Dev/eliotim/jeeves/engage`
+The root folder for my collection of useful, non-essential, useful-to-refer-back-to-later scripts is `cd ~/Dev/eliotim/gabriel/engage`
 
 - Open a command line shell.
 
 ```shell
-cd ~/Dev/eliotim/jeeves/engage
+cd ~/Dev/eliotim/gabriel/engage
 mkdir fiftyG
 cd fiftyG
 touch fiftyG.js
@@ -57,7 +57,7 @@ Your digital scales might calibrate with 100g or 25g. Change your script as requ
 
 _WAIT!: If it's anything over 1000g, remember that 1L of water is 1000g + plastic. You probably don't need this script._
 
-- Open `~/Dev/eliotim/jeeves/engage/fiftyG/fiftyG.js` in your favourite code editor.
+- Open `~/Dev/eliotim/gabriel/engage/fiftyG/fiftyG.js` in your favourite code editor.
 
 - Paste the following:
 
@@ -162,7 +162,8 @@ findCombinationToGoal(GOAL, ITEMS_IN_MY_POSSESSION, [])
 console.table(
   [...OUT.entries()]
     .sort((a, b) => a[0].split(" / ").length - b[0].split(" / ").length)
-    .slice(0, 3))
+    .slice(0, 3)
+)
 ```
 
 - Close the file.
@@ -170,7 +171,7 @@ console.table(
 - Run it.
 
 ```shell
-cd ~/Dev/eliotim/jeeves/engage/fiftyG
+cd ~/Dev/eliotim/gabriel/engage/fiftyG
 node fiftyG.js
 ```
 

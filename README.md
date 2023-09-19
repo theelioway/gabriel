@@ -2,9 +2,9 @@
 
 > Handed to you on a plate, **the elioWay**
 
-# jeeves
+# gabriel
 
-**DONE** Moved from `gitlab.io:elioangels/jeeves` repo.
+**DONE** Moved from `gitlab.io:elioangels/gabriel` repo.
 
 - A playground for running code in multiple languages.
 - A place to store snippets you'd like to remember later.
@@ -12,19 +12,19 @@
 
 <https://terrible.example.com>
 
-- [jeeves Documentation](https://elioway.gitlab.io/elioangels/jeeves/)
+- [gabriel Documentation](https://gitlab.timitee.theElioWay.com/elioangels/gabriel/)
 
 ## Installing
 
-- [Installing jeeves](https://elioway.gitlab.io/elioangels/jeeves/installing.html)
+- [Installing gabriel](https://gitlab.timitee.theElioWay.com/elioangels/gabriel/installing)
 
 ## Requirements
 
-- [elioFaithful Prerequisites](https://elioway.gitlab.io/elioangels/installing.html)
+- [elioFaithful Prerequisites](https://gitlab.timitee.theElioWay.com/elioangels/installing)
 
 ## Nutshell
 
-- [jeeves Quickstart](https://elioway.gitlab.io/elioangels/jeeves/quickstart.html)
+- [gabriel Quickstart](https://gitlab.timitee.theElioWay.com/elioangels/gabriel/quickstart)
 
 ## License
 

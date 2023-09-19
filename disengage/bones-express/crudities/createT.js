@@ -24,7 +24,7 @@ const { createError, thingTypeError } = require("../utils/responseMessages")
 
 const { thingTypeMatched } = require("../utils/validations")
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // console.log({ createT: "reqBody" }, req.body)
     // console.log({ createT: "reqParams" }, req.params)

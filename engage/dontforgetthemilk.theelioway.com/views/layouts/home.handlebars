@@ -1,0 +1,16 @@
+<body>
+    <h1>{{shoppingList.name}}</h1>
+    <h2>{{shoppingList.alternateName}}</h2>
+    <h3>Status: {{shoppingList.Action.actionStatus}}</h3>
+    <ul>
+        {{#each shoppingList.ItemList.itemListElement}}
+        <li>
+            {{this.name}} - {{this.BuyAction.actionStatus}}
+            <form action="/update" method="POST">
+                <input type="hidden" name="identifier" value="{{this.identifier}}">
+                <input type="submit" value="Mark as completed">
+            </form>
+        </li>
+        {{/each}}
+    </ul>
+</body>

@@ -25,7 +25,7 @@ const getT = require("./crudities/getT")
 const listT = require("./crudities/listT")
 const updateT = require("./crudities/updateT")
 
-module.exports = T => {
+module.exports = (T) => {
   let crudRouter = Router()
   crudRouter.get("/engage/:T/:_id/", permitTo("get", T), getT(T))
   crudRouter.get("/engage/:T/:_id/list/", permitTo("get", T), listT(T))

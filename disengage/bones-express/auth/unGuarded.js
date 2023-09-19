@@ -6,7 +6,7 @@ const passportCustom = require("passport-custom")
 
 const settings = require("../settings")
 
-module.exports = T => {
+module.exports = (T) => {
   passport.use(
     "unguarded",
     new passportCustom.Strategy((req, callback) => {

@@ -44,7 +44,7 @@ module.exports = () => {
     let things = thingBuilder.things([thingType], sanitizeOptions(req.query))
     let schemedT = things[thingType]
     let thinner = Object.keys(settings.slim)
-      .filter(skimkey => skimkey !== "_id")
+      .filter((skimkey) => skimkey !== "_id")
       .reduce(function (acc, slimkey) {
         if (schemedT[slimkey]) {
           acc[slimkey] = schemedT[slimkey]

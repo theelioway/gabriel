@@ -1,5 +1,5 @@
-elioName: icon
-pluginName: sansteeth
+identifier: icon
+subjectOf: sansteeth
 disambiguatingDescription: icon sansteeth, the elioWay
 ItemList:
   credit:

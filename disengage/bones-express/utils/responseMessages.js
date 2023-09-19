@@ -1,13 +1,13 @@
 "use strict"
 
 module.exports = {
-  Error: err => {
+  Error: (err) => {
     return {}
   },
-  Error: err => {
+  Error: (err) => {
     return {}
   },
-  getError: err => {
+  getError: (err) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: err.message,
@@ -15,14 +15,14 @@ module.exports = {
       name: 500,
     }
   },
-  updateSuccess: thingType => {
+  updateSuccess: (thingType) => {
     return {
       actionStatus: "CompletedActionStatus",
       disambiguatingDescription: `${thingType} has been updated.`,
       name: 206,
     }
   },
-  updateError: err => {
+  updateError: (err) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: err.message,
@@ -30,14 +30,14 @@ module.exports = {
       name: 500,
     }
   },
-  deleteSuccess: thingType => {
+  deleteSuccess: (thingType) => {
     return {
       actionStatus: "CompletedActionStatus",
       disambiguatingDescription: `${thingType} has been deleted.`,
       name: 206,
     }
   },
-  deleteError: err => {
+  deleteError: (err) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: err.message,
@@ -53,7 +53,7 @@ module.exports = {
       name: 409,
     }
   },
-  notFoundError: thingType => {
+  notFoundError: (thingType) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: `${thingType} matching query was not found.`,
@@ -69,7 +69,7 @@ module.exports = {
       name: 403,
     }
   },
-  createError: err => {
+  createError: (err) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: err.message,
@@ -85,7 +85,7 @@ module.exports = {
       name: 400,
     }
   },
-  signUpError: err => {
+  signUpError: (err) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: err.message,
@@ -110,7 +110,7 @@ module.exports = {
       name: 400,
     }
   },
-  loginTokenError: err => {
+  loginTokenError: (err) => {
     return {
       actionStatus: "FailedActionStatus",
       disambiguatingDescription: err.message,

@@ -28,7 +28,7 @@ const {
 
 const { thingTypeMatched } = require("../utils/validations")
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // console.log({ updateT: 'req' }, req)
     // console.log({ updateT: "reqBody" }, req.body)
@@ -57,7 +57,7 @@ module.exports = Thing => {
         {
           returnOriginal: false,
         },
-        e => {
+        (e) => {
           if (e) {
             let err = updateError(e) // console.log({ updateT: "err" }, err)
 

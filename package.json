@@ -1,33 +1,22 @@
 {
-  "author": "author",
+  "author": "Tim Bushell",
   "description": "A playground or laboratory or stomping ground for experimenting with things, the elioWay.",
-  "name": "jeeves",
-  "title": "jeeves",
+  "name": "gabriel",
+  "identifier": "gabriel",
   "version": "0.0.1",
-  "__________": "______________________________",
-  "kleio": {
-    "art": {
-      "elioName": "jeeves",
-      "pluginName": "",
-      "disambiguatingDescription": "Handed to you on a plate, the elioWay"
+  "private": true,
+  "mainEntityOfPage": "SoftwareSourceCode",
+ "SoftwareSourceCode": {
+    "codeSampleType": "experimental",
+    "targetProduct": "elioangels"
     },
-    "branciaos": [
-      "jeeves",
-      "elioangels"
-    ],
-    "chisel": {
-      "Home": "elioangels"
+    "WebPage": {
+      "breadcrumb": [ "elioway", "elioangels", "Named", "gabriel" ]
     },
-    "twig": {
-      "workingBranch": "main",
-      "mergeIntoBranch": "main"
-    }
-  },
-  "main": "main",
   "scripts": {
     "test": "mocha",
     "prettier:hbs": "prettier  --write **/*.hbs --parser=glimmer",
-    "prettier": "prettier --list-different --write \"**/*.{js,mjs,json,scss,md,html,yaml}\" \"!package.json\""
+    "prettier": "prettier --list-different --write \"**/*.{js,mjs,json,scss,md,html,yaml}\""
   },
   "devDependencies": {
     "chai": "^4.3.4",

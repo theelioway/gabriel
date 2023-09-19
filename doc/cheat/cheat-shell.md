@@ -116,14 +116,21 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
 ## services
 
 ```shell
-sudo service --status-all
+sudo -i systemctl disable servicename
+sudo -i systemctl enable servicename
 
+sudo -i systemctl list-units --type=service --state=running
+
+sudo systemctl start service_name
+sudo systemctl restart service_name
+sudo systemctl enable service_name
+sudo systemctl disable service_name
+
+
+sudo service --status-all
 sudo -i service servicename stop
 sudo -i service servicename start
 sudo -i service servicename restart
-
-sudo -i systemctl disable servicename
-sudo -i systemctl enable servicename
 
 sudo initctl list
 ```

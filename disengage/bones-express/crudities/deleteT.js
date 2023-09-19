@@ -28,7 +28,7 @@ const {
 
 const { isPermitted, thingTypeMatched } = require("../utils/validations")
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // console.log({ deleteT: "reqBody" }, req.body)
     // console.log({ deleteT: "reqParams" }, req.params)
@@ -51,7 +51,7 @@ module.exports = Thing => {
           {
             _id: req.params._id,
           },
-          e => {
+          (e) => {
             if (e) {
               // General error deleting this Thing.
               let err = deleteError(e) // console.log({ deleteT: "err" }, err)

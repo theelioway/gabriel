@@ -1,6 +1,6 @@
 import { createLogger } from "vuex"
 
-const localStoragePlugin = store => {
+const localStoragePlugin = (store) => {
   store.subscribe((mutation, { thing }) => {
     window.localStorage.setItem("STORAGE_KEY", JSON.stringify(thing))
   })

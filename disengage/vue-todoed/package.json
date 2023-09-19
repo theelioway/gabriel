@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "vue-cli-service build",
-    "prettier": "prettier --write \"**/*.{js,json,css,md,html,yaml,vue}\" \"!package.json\"",
+    "prettier": "prettier --list-different --write \"**/*.{js,json,css,md,html,yaml,vue}\"",
     "serve": "vue-cli-service serve"
   }
 }

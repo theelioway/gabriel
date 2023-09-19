@@ -1,0 +1,286 @@
+calibre, version 6.4.0 (linux, embedded-python: True)
+Conversion error: Failed: Convert book 525 of 1803 (what is life)
+
+Convert book 525 of 1803 (what is life)
+Conversion options changed from defaults:
+  read_metadata_from_opf: '/tmp/calibre_6.4.0_tmp_2kj_yc_h/ousiisjk.opf'
+  verbose: 2
+Resolved conversion options
+calibre version: 6.4.0
+{'asciiize': False,
+ 'author_sort': None,
+ 'authors': None,
+ 'base_font_size': 0.0,
+ 'book_producer': None,
+ 'change_justification': 'original',
+ 'chapter': "//*[((name()='h1' or name()='h2') and re:test(., "
+            "'\\s*((chapter|book|section|part)\\s+)|((prolog|prologue|epilogue)(\\s+|$))', "
+            "'i')) or @class = 'chapter']",
+ 'chapter_mark': 'pagebreak',
+ 'comments': None,
+ 'cover': None,
+ 'debug_pipeline': None,
+ 'dehyphenate': True,
+ 'delete_blank_paragraphs': True,
+ 'disable_font_rescaling': False,
+ 'dont_compress': False,
+ 'duplicate_links_in_toc': False,
+ 'embed_all_fonts': False,
+ 'embed_font_family': None,
+ 'enable_heuristics': False,
+ 'expand_css': False,
+ 'extra_css': None,
+ 'extract_to': None,
+ 'filter_css': '',
+ 'fix_indents': True,
+ 'font_size_mapping': None,
+ 'format_scene_breaks': True,
+ 'html_unwrap_factor': 0.4,
+ 'input_encoding': None,
+ 'input_profile': <calibre.customize.profiles.InputProfile object at 0x7f4b0bf0ddb0>,
+ 'insert_blank_line': False,
+ 'insert_blank_line_size': 0.5,
+ 'insert_metadata': False,
+ 'isbn': None,
+ 'italicize_common_cases': True,
+ 'keep_ligatures': False,
+ 'language': None,
+ 'level1_toc': None,
+ 'level2_toc': None,
+ 'level3_toc': None,
+ 'line_height': 0.0,
+ 'linearize_tables': False,
+ 'margin_bottom': 5.0,
+ 'margin_left': 5.0,
+ 'margin_right': 5.0,
+ 'margin_top': 5.0,
+ 'markup_chapter_headings': True,
+ 'max_toc_links': 50,
+ 'minimum_line_height': 120.0,
+ 'mobi_file_type': 'old',
+ 'mobi_ignore_margins': False,
+ 'mobi_keep_original_images': False,
+ 'mobi_toc_at_start': False,
+ 'no_chapters_in_toc': False,
+ 'no_inline_navbars': False,
+ 'no_inline_toc': False,
+ 'output_profile': <calibre.customize.profiles.OutputProfile object at 0x7f4b0bf0e080>,
+ 'page_breaks_before': '/',
+ 'personal_doc': '[PDOC]',
+ 'prefer_author_sort': False,
+ 'prefer_metadata_cover': False,
+ 'pretty_print': False,
+ 'pubdate': None,
+ 'publisher': None,
+ 'rating': None,
+ 'read_metadata_from_opf': '/tmp/calibre_6.4.0_tmp_2kj_yc_h/ousiisjk.opf',
+ 'remove_fake_margins': True,
+ 'remove_first_image': False,
+ 'remove_paragraph_spacing': False,
+ 'remove_paragraph_spacing_indent_size': 1.5,
+ 'renumber_headings': True,
+ 'replace_scene_breaks': '',
+ 'search_replace': '[]',
+ 'series': None,
+ 'series_index': None,
+ 'share_not_sync': False,
+ 'smarten_punctuation': False,
+ 'sr1_replace': None,
+ 'sr1_search': None,
+ 'sr2_replace': None,
+ 'sr2_search': None,
+ 'sr3_replace': None,
+ 'sr3_search': None,
+ 'start_reading_at': None,
+ 'subset_embedded_fonts': False,
+ 'tags': None,
+ 'timestamp': None,
+ 'title': None,
+ 'title_sort': None,
+ 'toc_filter': None,
+ 'toc_threshold': 6,
+ 'toc_title': None,
+ 'transform_css_rules': '[]',
+ 'transform_html_rules': '[]',
+ 'unsmarten_punctuation': False,
+ 'unwrap_lines': True,
+ 'use_auto_toc': False,
+ 'verbose': 2}
+InputFormatPlugin: EPUB Input running
+on /tmp/calibre_6.4.0_tmp_2kj_yc_h/3wi293nu.epub
+Found HTML cover ops/xhtml/cover.html
+Parsing all content...
+Parsing ops/xhtml/ch04.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch04.html as HTML
+Parsing ops/xhtml/prologue.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/prologue.html as HTML
+Parsing ops/xhtml/dedication.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/dedication.html as HTML
+Parsing ops/xhtml/cover.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/cover.html as HTML
+Parsing ops/xhtml/ch08.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch08.html as HTML
+Parsing ops/xhtml/ch03.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch03.html as HTML
+Parsing ops/xhtml/copyright.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/copyright.html as HTML
+Parsing ops/xhtml/ch07.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch07.html as HTML
+HTML 5 parsing failed, falling back to older parsers
+Traceback (most recent call last):
+  File "calibre/ebooks/oeb/parse_utils.py", line 211, in parse_html
+  File "calibre/utils/xml_parse.py", line 26, in safe_xml_fromstring
+  File "src/lxml/etree.pyx", line 3254, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1913, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1793, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1082, in lxml.etree._BaseParser._parseUnicodeDoc
+  File "src/lxml/parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 654, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Start tag expected, '<' not found, line 1, column 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "calibre/ebooks/oeb/parse_utils.py", line 218, in parse_html
+  File "calibre/utils/xml_parse.py", line 26, in safe_xml_fromstring
+  File "src/lxml/etree.pyx", line 3254, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1913, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1793, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1082, in lxml.etree._BaseParser._parseUnicodeDoc
+  File "src/lxml/parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 654, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Start tag expected, '<' not found, line 1, column 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "calibre/ebooks/oeb/parse_utils.py", line 224, in parse_html
+  File "calibre/ebooks/oeb/parse_utils.py", line 105, in html5_parse
+ValueError: HTML 5 parsing resulted in a tree with nesting depth > 100
+
+File 'ops/xhtml/ch07.html' does not appear to be (X)HTML
+File 'ops/xhtml/ch07.html' appears to be a HTML fragment
+Forcing ops/xhtml/ch07.html into XHTML namespace
+Stripping comments from ops/xhtml/ch07.html
+File ops/xhtml/ch07.html missing <head/> element
+Parsing ops/xhtml/css/kobo.css ...
+Parsing ops/xhtml/title.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/title.html as HTML
+Parsing ops/xhtml/ch02.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch02.html as HTML
+Parsing ops/xhtml/ch06.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch06.html as HTML
+Parsing ops/xhtml/index.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/index.html as HTML
+Parsing ops/styles/9780199641017.css ...
+Parsing ops/xhtml/fm.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/fm.html as HTML
+Parsing ops/xhtml/ch01.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch01.html as HTML
+Parsing ops/xhtml/contents.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/contents.html as HTML
+Parsing ops/xhtml/ch05.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/ch05.html as HTML
+Parsing ops/xhtml/references.html ...
+Initial parse failed, using more forgiving parsers
+Parsing ops/xhtml/references.html as HTML
+Failed to read from manifest entry with id: map, ignoring
+Traceback (most recent call last):
+  File "calibre/ebooks/oeb/reader.py", line 193, in _manifest_add_missing
+  File "calibre/ebooks/oeb/base.py", line 1041, in data
+  File "calibre/ebooks/oeb/base.py", line 944, in _parse_xml
+  File "calibre/utils/xml_parse.py", line 35, in safe_xml_fromstring
+  File "src/lxml/etree.pyx", line 3254, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1913, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1800, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1141, in lxml.etree._BaseParser._parseDoc
+  File "src/lxml/parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 654, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Start tag expected, '<' not found, line 1, column 1
+
+Reading TOC from NCX...
+Merging user specified metadata...
+Detecting structure...
+Flattening CSS and remapping font sizes...
+Source base font size is 12.00000pt
+Removing fake margins...
+Found 1 items of level: p_38
+Found 1 items of level: p_30
+Found 1 items of level: p_1
+Ignoring level p_1
+Ignoring level p_38
+Ignoring level p_30
+Cleaning up manifest...
+Trimming unused files from manifest...
+Trimming 'ops/fonts/CharisSILB.ttf' from manifest
+Trimming 'ops/xhtml/cover.html' from manifest
+Trimming 'ops/images/f0060-01.jpg' from manifest
+Trimming 'ops/images/f0126-01.jpg' from manifest
+Trimming 'ops/fonts/CharisSILR.ttf' from manifest
+Trimming 'ops/images/f0028-01.jpg' from manifest
+Trimming 'ops/images/f0112-01.jpg' from manifest
+Trimming 'ops/fonts/CharisSILI.ttf' from manifest
+Trimming 'ops/images/f0090-01.jpg' from manifest
+Trimming 'ops/images/pub.jpg' from manifest
+Trimming 'ops/xhtml/js/kobo.js' from manifest
+Trimming 'ops/fonts/CharisSILBI.ttf' from manifest
+Trimming 'ops/images/f0067-01.jpg' from manifest
+Trimming 'ops/images/f0171-01.jpg' from manifest
+Trimming 'ops/images/pub1.jpg' from manifest
+Creating MOBI Output...
+Serializing resources...
+Bad image file 'ops/images/9780199641017.jpg'
+Creating MOBI 6 output
+Generating in-line TOC...
+Applying case-transforming CSS...
+Parsing manglecase.css ...
+Parsing tocstyle.css ...
+Rasterizing SVG images...
+Bad image file 'ops/images/9780199641017.jpg'
+Converting XHTML to Mobipocket markup...
+Traceback (most recent call last):
+  File "runpy.py", line 196, in _run_module_as_main
+  File "runpy.py", line 86, in _run_code
+  File "site.py", line 45, in <module>
+  File "site.py", line 41, in main
+  File "calibre/utils/ipc/worker.py", line 215, in main
+  File "calibre/gui2/convert/gui_conversion.py", line 38, in gui_convert_override
+  File "calibre/gui2/convert/gui_conversion.py", line 25, in gui_convert
+  File "calibre/ebooks/conversion/plumber.py", line 1281, in run
+  File "calibre/ebooks/conversion/plugins/mobi_output.py", line 212, in convert
+  File "calibre/ebooks/conversion/plugins/mobi_output.py", line 244, in write_mobi
+  File "calibre/ebooks/mobi/mobiml.py", line 141, in __call__
+  File "calibre/ebooks/mobi/mobiml.py", line 151, in mobimlize_spine
+  File "calibre/ebooks/mobi/mobiml.py", line 601, in mobimlize_elem
+  File "calibre/ebooks/mobi/mobiml.py", line 601, in mobimlize_elem
+  File "calibre/ebooks/mobi/mobiml.py", line 601, in mobimlize_elem
+  [Previous line repeated 14 more times]
+  File "calibre/ebooks/mobi/mobiml.py", line 599, in mobimlize_elem
+  File "calibre/ebooks/mobi/mobiml.py", line 326, in mobimlize_content
+  File "src/lxml/etree.pyx", line 1041, in lxml.etree._Element.text.__set__
+  File "src/lxml/apihelpers.pxi", line 748, in lxml.etree._setNodeText
+  File "src/lxml/apihelpers.pxi", line 736, in lxml.etree._createTextNode
+  File "src/lxml/apihelpers.pxi", line 1541, in lxml.etree._utf8
+ValueError: All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters

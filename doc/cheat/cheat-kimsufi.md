@@ -53,6 +53,7 @@ To avoid having to use the password to enter an ssh session, and can use an "ssh
 
 ```shell
 ssh-copy-id elioway@1.2.3.4
+ssh-copy-id -i /home/tim/.ssh/ns987654.pub elioway@1.2.3.4
 # will prompt for your password
 ```
 
@@ -203,7 +204,7 @@ ssh elioway@1.2.3.4
 sudo apt update
 sudo apt install nginx
 # firewall it!
-sudo ufw allow 'Nginx HTTP'
+sudo  allow 'Nginx HTTP'
 sudo ufw allow 'Nginx HTTPS'
 sudo ufw status
 ```
@@ -256,7 +257,7 @@ Or add a npm script command to the `package.json` file in your terrible app.
 ```json
   "scripts": {
     "pm2": "pm2 serve build --namespace example --name terrible --port 50001",
-    "prettier": "prettier --write \"**/*.{js,json,css,scss,md,html,yaml,yml}\" \"!package.json\" ",
+    "prettier": "prettier --list-different --write \"**/*.{js,json,css,scss,md,html,yaml,yml}\" ",
     "rsync": "rsync -rP build terrible-example.conf elioway@1.2.3.4:~/Dev/terrible-example"
   }
 ```
@@ -371,7 +372,7 @@ So if you have a directory on your server like this:
 ssh elioway@1.2.3.4
 # you'll be in your `/home/elioway/` or `~/`
 mkdir -p Backup
-# you'll folder path `~/Backup`
+# your folder path is `~/Backup`
 ```
 
 You would reference it like this:
@@ -389,8 +390,11 @@ There's always this big question. In the above example the `Documents` directory
 ```shell
 # sync and put the local `Documents` directory inside the remote `Backup` directory
 rsync -a ~/Documents elioway@1.2.3.4:~/Backup/
+# results in 1.2.3.4:~/Backup/Documents/DocumentsFile.txt
+
 # sync and merge the local `Documents` directory with the remote `Backup` directory
 rsync -a ~/Documents/ elioway@1.2.3.4:~/Backup/
+# results in 1.2.3.4:~/Backup/DocumentsFile.txt
 # a little `/` slash makes all the difference here
 ```
 
@@ -399,7 +403,7 @@ rsync -a ~/Documents/ elioway@1.2.3.4:~/Backup/
 There are hundreds of options for `rsync`. Common ones are:
 
 - `-r` recursive... but use `-a` instead because...
-- `-a` maintain file attributes. Combimes bunch of options - `-rlptgoD` - which includes recursive + file permissions, visibility, links, ownership, timestamp, etc.
+- `-a` maintain file attributes. Combines bunch of options - `-rlptgoD` - which includes recursive + file permissions, visibility, links, ownership, timestamp, etc.
 - `-v` verbose
 - `-n` or `--dry-run` (combine with `-P` so you can see what it would do!)
 - `-P` or `--progress` with `--partial`

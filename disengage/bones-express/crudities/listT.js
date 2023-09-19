@@ -24,7 +24,7 @@ const { getError, thingTypeError } = require("../utils/responseMessages")
 
 const settings = require("../settings")
 
-module.exports = Thing => {
+module.exports = (Thing) => {
   return async (req, res) => {
     // console.log({ listT: "reqBody" }, req.body)
     // console.log({ listT: "reqParams" }, req.params)

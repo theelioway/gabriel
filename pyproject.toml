@@ -7,10 +7,10 @@ exclude = '''
   /(
     | \.git
     | \.pytest_cache
-    | jeeves.egg-info
+    | gabriel.egg-info
     | node_modules
     | schemaorg
-    | venv-jeeves
+    | venv-gabriel
   )/
 )
 '''

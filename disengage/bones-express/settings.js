@@ -11,22 +11,22 @@ module.exports = {
   guard: jwtAuthGuard,
   permits: BasePermits,
   sanitizers: {
-    comment: queryString => {
+    comment: (queryString) => {
       queryString = queryString || {}
       queryString.comment =
         queryString.hasOwnProperty("comment") &&
         String(queryString.comment) !== "false"
       return queryString
     },
-    depth: queryString => {
+    depth: (queryString) => {
       queryString = queryString || {}
       queryString.depth = Number(queryString.depth) || 0
       return queryString
     },
   },
-  bones: BONES.split(",").filter(b => b),
+  bones: BONES.split(",").filter((b) => b),
   depth: BONES_DEPTH || 0,
-  extraPrimitive: EXTRA_PRIMITIVE.split(",").filter(b => b),
+  extraPrimitive: EXTRA_PRIMITIVE.split(",").filter((b) => b),
   mongoDbUrl: MONGODB_URL || "mongodb://127.0.0.1:27017/elioway",
   slim: {
     // additionalType: 1,

@@ -1,2 +1,2 @@
-source venv-jeeves/bin/activate.fish
-set -x APP_NAME "jeeves"
+source venv-gabriel/bin/activate.fish
+set -x APP_NAME "gabriel"

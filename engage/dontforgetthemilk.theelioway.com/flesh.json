@@ -1,0 +1,55 @@
+{
+  "mainEntityOfPage": "nav",
+  "identifier": "input:hidden",
+  "name": "h1",
+  "alternateName": "h2",
+  "url": "a",
+  "ItemList": {
+  "itemListElement": [
+    {
+      "identifier": "Eggs",
+      "name": "Eggs",
+      "mainEntityOfPage": "BuyAction",
+      "BuyAction": {
+        "actionStatus": "PotentialActionStatus"
+      },
+      "Product": {
+        "brand": "Brand A",
+        "offers": {
+          "price": "3.50",
+          "priceCurrency": "USD"
+        }
+      }
+    },
+    {
+      "identifier": "Cheese",
+      "name": "Cheese",
+      "mainEntityOfPage": "BuyAction",
+      "BuyAction": {
+        "actionStatus": "PotentialActionStatus"
+      },
+      "Product": {
+        "brand": "Brand B",
+        "offers": {
+          "price": "5.00",
+          "priceCurrency": "USD"
+        }
+      }
+    },
+    {
+      "identifier": "Milk",
+      "name": "Milk",
+      "mainEntityOfPage": "BuyAction",
+      "BuyAction": {
+        "actionStatus": "PotentialActionStatus"
+      },
+      "Product": {
+        "brand": "Brand C",
+        "offers": {
+          "price": "2.50",
+          "priceCurrency": "USD"
+        }
+      }
+    }
+  ]},
+}

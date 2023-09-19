@@ -4,7 +4,7 @@ export default {
       name: "I am your Thing",
       description:
         "For a guide and recipes on how to configure / customize this project, check out the Quickstart.",
-      url: "https://elioway.gitlab.io/elioenlightenment/quickstart",
+      url: "https://gitlab.timitee.theElioWay.com/elioenlightenment/quickstart",
       image: "/star.png",
     },
     engaged: "Thing",

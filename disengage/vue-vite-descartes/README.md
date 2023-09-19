@@ -1,4 +1,4 @@
-![](https://elioway.gitlab.io/elioenlightenment/descartes/elio-descartes-logo.png)
+![](https://gitlab.timitee.theElioWay.com/elioenlightenment/descartes/elio-descartes-logo.png)
 
 > I think, therefore I am, **the elioWay**
 
@@ -8,15 +8,15 @@ Paused to try vue-router.
 
 Jacque's Seven Ages, a figurative poem, the elioWay.
 
-- [descartes Documentation](https://elioway.gitlab.io/elioenlightenment/descartes/)
+- [descartes Documentation](https://gitlab.timitee.theElioWay.com/elioenlightenment/descartes/)
 
 ## Installing
 
-- [Installing descartes](https://elioway.gitlab.io/elioenlightenment/descartes/installing.html)
+- [Installing descartes](https://gitlab.timitee.theElioWay.com/elioenlightenment/descartes/installing)
 
 ## Requirements
 
-- [descartes Prerequisites](https://elioway.gitlab.io/descartes/installing.html)
+- [descartes Prerequisites](https://gitlab.timitee.theElioWay.com/descartes/installing)
 
 ## Seeing is Believing
 
@@ -25,15 +25,15 @@ npm i
 npm run dev
 ```
 
-- [descartes Quickstart](https://elioway.gitlab.io/descartes/quickstart.html)
-- [descartes Quickstart](https://elioway.gitlab.io/elioenlightenment/descartes/quickstart.html)
+- [descartes Quickstart](https://gitlab.timitee.theElioWay.com/descartes/quickstart)
+- [descartes Quickstart](https://gitlab.timitee.theElioWay.com/elioenlightenment/descartes/quickstart)
 
 # Credits
 
-- [descartes Credits](https://elioway.gitlab.io/elioenlightenment/descartes/credits.html)
+- [descartes Credits](https://gitlab.timitee.theElioWay.com/elioenlightenment/descartes/credits)
 
 ## License
 
 [MIT](license)
 
-![](https://elioway.gitlab.io/elioenlightenment/descartes/apple-touch-icon.png)
+![](https://gitlab.timitee.theElioWay.com/elioenlightenment/descartes/apple-touch-icon.png)

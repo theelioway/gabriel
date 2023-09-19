@@ -1,0 +1,39 @@
+{
+  "author": "author",
+  "description": "Quickly prettify code you've found to test.",
+  "name": "prettyugly",
+  "identifier": "prettyUgly",
+  "private": true,
+  "SoftwareSourceCode": {
+     "codeSampleType": "experimental",
+     "targetProduct": "gabriel"
+     },
+     "WebPage": {
+       "breadcrumb": [ "elioway", "elioangels", "Named", "gabriel", "prettyUgly" ]
+     },
+  "scripts": {
+    "test": "mocha",
+    "prettier:hbs": "prettier  --write **/*.hbs --parser=glimmer",
+    "prettier": "prettier --list-different --write \"**/*.{js,json,scss,md,html,yaml}\""
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-prettier": "^3.0.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "mocha": "^8.2.0",
+    "prettier": "^2.1.2",
+    "vinyl-paths": "^3.0.1"
+  },
+  "keywords": [
+    "elioway",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "shelljs": "^0.8.4"
+  }
+}

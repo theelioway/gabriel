@@ -22,14 +22,14 @@ export const wittiness = {
 }
 
 export const filterByActionStatus = Object.fromEntries(
-  Object.keys(wittiness).map(actionType => [
+  Object.keys(wittiness).map((actionType) => [
     actionType.slice(0, -10),
-    list => list.filter(T => T.actionStatus === actionType),
+    (list) => list.filter((T) => T.actionStatus === actionType),
   ])
 )
 
 export const textForEmptyList = Object.fromEntries(
-  Object.keys(wittiness).map(actionType => [
+  Object.keys(wittiness).map((actionType) => [
     actionType.slice(0, -12),
     wittiness[actionType].empty,
   ])

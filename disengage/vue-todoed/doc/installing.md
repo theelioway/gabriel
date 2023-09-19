@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- [elioWay Prerequisites](https://elioway.gitlab.io/installing.html)
-- [descartes Prerequisites](https://elioway.gitlab.io/descartes/installing.html)
+- [elioWay Prerequisites](https://gitlab.timitee.theElioWay.com/installing)
+- [descartes Prerequisites](https://gitlab.timitee.theElioWay.com/descartes/installing)
 
 ## npm
 
@@ -16,7 +16,7 @@ yarn add @elioway/descartes
 
 ## Development
 
-```bash
+```shell
 cd elioway
 git clone https://gitlab.com/elioway/descartes.git
 cd descartes
