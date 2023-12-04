@@ -39,7 +39,7 @@ module.exports = () => {
     let thingType = req.params.engage
     let thingBuilder = new ThingBuilder(
       getSchema("9.0/schemaorg-all-http"),
-      schemaDomainUrl
+      schemaDomainUrl,
     )
     let things = thingBuilder.things([thingType], sanitizeOptions(req.query))
     let schemedT = things[thingType]

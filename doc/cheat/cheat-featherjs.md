@@ -151,7 +151,7 @@ app.service("my-service").hooks({
   error(context) {
     console.error(
       `Error in ${context.path} calling ${context.method} method`,
-      context.error
+      context.error,
     )
   },
 })
@@ -528,7 +528,7 @@ app.use(
     },
     whitelist: [], // A list of additional non-standard query parameters to allow (e.g [ '$regex', '$populate' ])
     multi: true, // Allow create with arrays and update and remove with id null to change multiple items
-  })
+  }),
 )
 
 adapter.find() // returns a list of all records matching the query in params.query using the common querying mechanism

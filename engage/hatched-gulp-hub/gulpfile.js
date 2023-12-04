@@ -11,7 +11,7 @@ const HUB = ["admin-site", "public-site"]
 // we will run.
 const FILES = {
   watch: HUB.map((hub) => `./${hub}/stylesheet.scss`).concat(
-    "./stylesheet.scss"
+    "./stylesheet.scss",
   ),
   gulpers: HUB.map((hub) => `./${hub}/gulpfile.js`),
 }

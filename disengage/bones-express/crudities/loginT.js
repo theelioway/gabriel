@@ -88,7 +88,7 @@ module.exports = (Thing) => {
                 })
                 .end()
             }
-          }
+          },
         )
       } else {
         // General error logging in to this Thing.

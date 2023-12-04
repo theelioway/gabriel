@@ -23,7 +23,7 @@ module.exports = (T) => {
           return callback(null, thing)
         }
       })
-    })
+    }),
   )
   return passport.authenticate("unguarded", {
     session: false,

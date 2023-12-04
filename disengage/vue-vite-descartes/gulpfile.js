@@ -93,7 +93,7 @@ const watchTask = () => {
   // })
   return watch(
     FILES.scssWatch.concat(FILES.alsoWatch).concat(FILES.jsPath),
-    build
+    build,
   ) //.on('change', console.log("RELOAD INNIT")) // , browserSync.reload
 }
 

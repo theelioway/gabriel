@@ -10,7 +10,7 @@ const start = async () => {
       {
         app: "listen",
       },
-      "> listening on http://localhost:3000"
+      "> listening on http://localhost:3000",
     )
   })
 }

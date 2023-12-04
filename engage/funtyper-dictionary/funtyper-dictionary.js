@@ -12,7 +12,7 @@ function fixWordSets() {
 
   console.log("LETTER_SETS:", LETTER_SETS.length)
   console.log("WORD_SETS:", WORD_SETS.length)
-  
+
   let result = coverWordSets(LETTER_SETS, WORD_SETS)
 
   // Write updatedWordSets to JSON file

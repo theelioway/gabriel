@@ -12,7 +12,7 @@ reduce((previousValue, currentValue, currentIndex, array) => {
 // Restructue an Object into an array.
 Object.entries({ a: 1, b: 2, c: 3 }).reduce(
   (acc, [k, v]) => acc.concat(new Array(v).fill(k)),
-  []
+  [],
 )
 // >> ["a","b","b","c","c","c"]
 // Reverse above.
@@ -20,7 +20,7 @@ Object.entries({ a: 1, b: 2, c: 3 }).reduce(
 Object.create(acc, { p: { value: 42 } })
 new Array("a", "b", "b", "c", "c", "c").reduce(
   (acc, k) => ({ ...acc, [k]: (acc[k] || 0) + 1 }),
-  {}
+  {},
 )
 ```
 

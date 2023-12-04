@@ -7,7 +7,7 @@ console.log(
       return word
         .split("")
         .every((c) =>
-          ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"].includes(c)
+          ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";"].includes(c),
         )
-    })
+    }),
 )

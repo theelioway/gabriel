@@ -119,7 +119,7 @@ exports.config = {
   afterHook: function (
     test,
     context,
-    { error, result, duration, passed, retries } /*, stepData, world*/
+    { error, result, duration, passed, retries } /*, stepData, world*/,
   ) {},
   /**
    * Function to be executed before a test (in Mocha/Jasmine) starts.
@@ -146,7 +146,7 @@ exports.config = {
   afterTest: function (
     test,
     context,
-    { error, result, duration, passed, retries }
+    { error, result, duration, passed, retries },
   ) {},
   /**
    * Hook that gets executed after the suite has ended
@@ -191,7 +191,7 @@ exports.config = {
   afterStep: function (
     { uri, feature, step },
     context,
-    { error, result, duration, passed, retries }
+    { error, result, duration, passed, retries },
   ) {},
   afterScenario: function (uri, feature, scenario, result, sourceLocation) {},
   afterFeature: function (uri, feature, scenarios) {},

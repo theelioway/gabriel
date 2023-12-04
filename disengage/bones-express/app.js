@@ -27,7 +27,7 @@ app
   .use(
     bodyParser.urlencoded({
       extended: true,
-    })
+    }),
   ) // .use(pino);
 
 database.dbconnect().on("error", (err) =>
@@ -35,8 +35,8 @@ database.dbconnect().on("error", (err) =>
     {
       app: "err",
     },
-    err
-  )
+    err,
+  ),
 )
 app.use("/auth", routerAuth)
 app.use("/schema", routerSchema)

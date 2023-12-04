@@ -61,7 +61,7 @@ module.exports = (Thing) => {
               let success = deleteSuccess(thingType)
               res.status(success.name).json(success)
             }
-          }
+          },
         )
       }
     })

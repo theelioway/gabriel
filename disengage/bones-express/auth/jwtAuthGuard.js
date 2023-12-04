@@ -23,7 +23,7 @@ module.exports = (T) => {
         .catch((err) => {
           return callback(err)
         })
-    })
+    }),
   )
   return passport.authenticate("jwt", {
     session: false,

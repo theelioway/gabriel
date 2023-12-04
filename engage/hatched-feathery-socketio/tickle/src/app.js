@@ -27,7 +27,7 @@ app.configure(configuration())
 app.use(
   helmet({
     contentSecurityPolicy: false,
-  })
+  }),
 )
 app.use(cors())
 app.use(compress())

@@ -1,6 +1,5 @@
 const should = require("chai").should()
 
-
 const letterSets = [
   ["a", "s", "l", ";"],
   ["d", "k"],

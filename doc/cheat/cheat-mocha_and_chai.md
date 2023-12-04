@@ -14,6 +14,10 @@
 
 ```
 const should = require('chai').should()
+
+import { should } from "chai"
+should()
+
 describe("Doc | MochaJs and ChaiJS Cheat Sheet", () => {
   it("always passes this test", () => {
     true.should.be.ok
@@ -40,6 +44,7 @@ object
   .should.be.true
   .should.be.false
   .should.be.null
+  // You cannot do this since if the thing being tested is undefined then it won't have a `should` property.
   .should.be.undefined
   .should.be.empty
   .should.be.arguments

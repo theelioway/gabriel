@@ -12,7 +12,7 @@ module.exports = function (app) {
     },
     {
       timestamps: true,
-    }
+    },
   )
 
   // This is necessary to avoid model compilation errors in watch mode

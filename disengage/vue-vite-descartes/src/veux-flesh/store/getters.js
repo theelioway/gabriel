@@ -6,7 +6,7 @@ export const gettersThing = {
   weAreTheBelievers: (state, getters) => (thingFromBone) => {
     let valuesBucket = (thing) => {
       return Object.fromEntries(
-        Object.entries(thing).flatMap(([k, v]) => Object.entries(v))
+        Object.entries(thing).flatMap(([k, v]) => Object.entries(v)),
       )
     }
     /** flatMap all the fields into one 'bucket'" */

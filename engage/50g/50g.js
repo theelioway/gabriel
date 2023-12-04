@@ -73,7 +73,7 @@ function findCombinationToGoal(goal, numbers, partial) {
   if (PRECISION > Math.abs(goal - projection)) {
     let HIT = partial.sort().map((weight) => {
       return Object.keys(KNOWN_WEIGHTS_ITEMS).find(
-        (key) => KNOWN_WEIGHTS_ITEMS[key] === weight
+        (key) => KNOWN_WEIGHTS_ITEMS[key] === weight,
       )
     })
     let lines = HIT.join(" / ")
@@ -98,5 +98,5 @@ findCombinationToGoal(GOAL, ITEMS_IN_MY_POSSESSION, [])
 console.table(
   [...OUT.entries()]
     .sort((a, b) => a[0].split(" / ").length - b[0].split(" / ").length)
-    .slice(0, 3)
+    .slice(0, 3),
 )

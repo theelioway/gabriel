@@ -658,16 +658,7 @@
     "Quill",
     "Quirky"
   ],
-  [
-    "Zebra",
-    "Zeus",
-    "Zinc",
-    "Zone",
-    "Zoned",
-    "Zones",
-    "Zonked",
-    "Zoo"
-  ],
+  ["Zebra", "Zeus", "Zinc", "Zone", "Zoned", "Zones", "Zonked", "Zoo"],
   [
     "Obey",
     "Obeys",
@@ -681,12 +672,7 @@
     "Whinge",
     "Wonky"
   ],
-  [
-    "Xenolith",
-    "Xeon",
-    "Xerox",
-    "Xylophone"
-  ],
+  ["Xenolith", "Xeon", "Xerox", "Xylophone"],
   [
     "Elbows",
     "Elephant",

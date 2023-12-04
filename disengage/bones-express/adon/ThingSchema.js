@@ -29,6 +29,6 @@ const ThingSchema = new mongoose.Schema(
     toObject: {
       versionKey: false,
     },
-  }
+  },
 )
 module.exports = ThingSchema

@@ -17,12 +17,12 @@ app.get("/", (req, res) => {
 app.post("/update", (req, res) => {
   const itemIdentifier = req.body.identifier
   const item = thing.ItemList.itemListElement.find(
-    item => item.identifier === itemIdentifier
+    item => item.identifier === itemIdentifier,
   )
   item.BuyAction.actionStatus = "CompletedActionStatus"
 
   const allCompleted = thing.ItemList.itemListElement.every(
-    item => item.BuyAction.actionStatus === "CompletedActionStatus"
+    item => item.BuyAction.actionStatus === "CompletedActionStatus",
   )
 
   if (allCompleted) {

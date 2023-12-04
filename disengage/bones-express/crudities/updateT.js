@@ -66,7 +66,7 @@ module.exports = (Thing) => {
             let success = updateSuccess(thingType)
             res.status(success.name).send(success)
           }
-        }
+        },
       )
     }
   }

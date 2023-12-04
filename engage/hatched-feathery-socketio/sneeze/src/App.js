@@ -56,7 +56,7 @@ const Application = props => {
       setUsers(currentUsers => currentUsers.concat(user));
     const resetUsers = user =>
       setUsers(currentUsers =>
-        currentUsers.map(u => (u._id === user._id ? user : u))
+        currentUsers.map(u => (u._id === user._id ? user : u)),
       );
     messagesService.on('created', addNewMessages);
     usersService.on('created', addNewUsers);

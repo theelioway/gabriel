@@ -22,7 +22,7 @@ describe("'messages' service", () => {
         text: "a test",
         additional: "should be removed",
       },
-      params
+      params,
     )
 
     assert.equal(message.text, "a test")

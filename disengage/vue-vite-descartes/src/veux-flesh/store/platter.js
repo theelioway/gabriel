@@ -28,7 +28,7 @@ export const cyrb53 = function (n, seed) {
  * @param {Array} arr, e.g. ["a", "b", "c"]
  * @returns {Array} e.g. [0, 0, 0, 1, 1, 2]
  */
-export const freakquency = arr => {
+export const freakquency = (arr) => {
   let freaks = []
   for (let i = 0; i < arr.length; i++) {
     freaks = freaks.concat(new Array(arr.length - i).fill(i))
@@ -81,7 +81,7 @@ export const puncture = (wordList, opts) => {
           wordList.splice(
             insertPoint + 1,
             1,
-            capitalize(nth(wordList, insertPoint + 1))
+            capitalize(nth(wordList, insertPoint + 1)),
           )
         }
       }
@@ -99,7 +99,7 @@ export const puncture = (wordList, opts) => {
   return wordList
 }
 
-export const cloneDeepBreaking = fieldDef => {
+export const cloneDeepBreaking = (fieldDef) => {
   let clonedBroken = new Object()
   if (isPlainObject(fieldDef)) {
     for (let [k, v] of Object.entries(fieldDef)) {
@@ -126,11 +126,10 @@ export const rePurpose = (fieldDef, fieldRedefine) => {
 
 /** @file Convenient wrapper for cloning an object assigning it to a variable
 while breaking the reference. */
-export const reRaw = raw => {
+export const reRaw = (raw) => {
   if (Array.isArray(raw)) {
     return [...raw]
   } else {
-    
     return rePurpose(raw)
   }
 }

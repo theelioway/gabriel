@@ -93,7 +93,7 @@ const addUser = (user) => {
       <a class="block relative" href="#">
         <img src="${user.avatar}" alt="" class="avatar">
         <span class="absolute username">${escape(
-          user.name || user.email
+          user.name || user.email,
         )}</span>
       </a>
     </li>`
@@ -119,10 +119,10 @@ const addMessage = (message) => {
       <div class="message-wrapper">
         <p class="message-header">
           <span class="username font-600">${escape(
-            user.name || user.email
+            user.name || user.email,
           )}</span>
           <span class="sent-date font-300">${moment(message.createdAt).format(
-            "MMM Do, hh:mm:ss"
+            "MMM Do, hh:mm:ss",
           )}</span>
         </p>
         <p class="message-content font-300">${text}</p>
@@ -141,7 +141,7 @@ const showLogin = (error) => {
       .querySelector(".heading")
       .insertAdjacentHTML(
         "beforeend",
-        `<p>There was an error: ${error.message}</p>`
+        `<p>There was an error: ${error.message}</p>`,
       )
   } else {
     document.getElementById("app").innerHTML = loginHTML

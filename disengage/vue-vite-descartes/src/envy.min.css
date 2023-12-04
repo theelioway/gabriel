@@ -874,7 +874,9 @@ main > .adonToolBar.slavehidden {
 main > .adonToolSlave {
   margin-top: 0 !important;
   opacity: 1;
-  transition: visibility 0.5s linear 0s, all 0.5s;
+  transition:
+    visibility 0.5s linear 0s,
+    all 0.5s;
   visibility: visible;
 }
 
@@ -886,7 +888,9 @@ main > .adonToolSlave.slavehidden {
   overflow: hidden;
   padding: 0 0 !important;
   line-height: 0;
-  transition: visibility 0s linear 0.5s, all 0s;
+  transition:
+    visibility 0s linear 0.5s,
+    all 0s;
   transition-timing-function: ease;
   visibility: hidden;
 }

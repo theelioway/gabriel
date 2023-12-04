@@ -36,7 +36,7 @@ const barbExists = await toolbox.patching.exists("config.txt", "Barb")
 const barbExists = await toolbox.patching.exists("config.txt", /Barb/)
 const barbExists = await toolbox.patching.exists(
   "config.txt",
-  new Regex(/Barb/, "i")
+  new Regex(/Barb/, "i"),
 )
 
 await toolbox.patching.update("config.json", (config) => {
@@ -53,7 +53,7 @@ await toolbox.patching.prepend("config.txt", "Prepend this string\n")
 await toolbox.patching.replace(
   "config.txt",
   "Remove this string\n",
-  "Replace with this string\n"
+  "Replace with this string\n",
 )
 
 await toolbox.patching.patch("config.txt", {
@@ -81,6 +81,6 @@ await toolbox.patching.patch("config.txt", {
 await toolbox.patching.patch(
   "config.txt",
   { insert: "Jamon", after: "Something else" },
-  { insert: "Jamon", before: "Something else" }
+  { insert: "Jamon", before: "Something else" },
 )
 ```

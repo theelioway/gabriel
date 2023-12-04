@@ -79,7 +79,7 @@ export const puncture = (wordList, opts) => {
           wordList.splice(
             insertPoint + 1,
             1,
-            _.capitalize(_.nth(wordList, insertPoint + 1))
+            _.capitalize(_.nth(wordList, insertPoint + 1)),
           )
         }
       }

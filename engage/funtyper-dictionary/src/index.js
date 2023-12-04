@@ -1,6 +1,5 @@
 const fs = require("fs")
 
-
 const insertInto = (index, array, subArray) => {
   if (array.length < index + 1) {
     array.push(subArray)
@@ -17,7 +16,7 @@ const insertInto = (index, array, subArray) => {
  * Words are eventally moved into the first WORDSET when all its letters are
  * covered by that rank.
  */
-const coverWordSets=(letterSets, wordSets) => {
+const coverWordSets = (letterSets, wordSets) => {
   let fuck = []
   // For each letter up to and including each ranl letterset.
   for (let rank = 0; rank < letterSets.length; rank++) {
@@ -25,11 +24,11 @@ const coverWordSets=(letterSets, wordSets) => {
     const currentLetterSet = letterSets.slice(0, rank + 1).flat()
     // Get the words for this set.
     const currentWordSet = Array.from(
-      new Set(wordSets.slice(rank, rank + 1).flat())
+      new Set(wordSets.slice(rank, rank + 1).flat()),
     )
     // Get the words for the next set - a place to move words upwards if not covered.
     const nextWordSet = Array.from(
-      new Set(wordSets.slice(rank + 1, rank + 2).flat())
+      new Set(wordSets.slice(rank + 1, rank + 2).flat()),
     )
     // A place to tally words which ARE covered.
     const keeperForCurrentWordSet = []
@@ -41,7 +40,7 @@ const coverWordSets=(letterSets, wordSets) => {
         .split("")
         .every(letter => currentLetterSet.includes(letter))
 
-     fuck.push({ rank, currentLetterSet, currentWord, currentWordCovered})
+      fuck.push({ rank, currentLetterSet, currentWord, currentWordCovered })
       // If
       if (!currentWordCovered) {
         // Add to the next WORDSET (for now)
@@ -54,7 +53,7 @@ const coverWordSets=(letterSets, wordSets) => {
     // Resolve to the "keepers" list.
     wordSets[rank] = keeperForCurrentWordSet
     // Move the rest into the next WORDSET (which we will loop into... NOW!)
-    wordSets[rank+1] = nextWordSet
+    wordSets[rank + 1] = nextWordSet
   }
 
   const jsonData = JSON.stringify(fuck, null, 2)
@@ -62,6 +61,5 @@ const coverWordSets=(letterSets, wordSets) => {
 
   return wordSets
 }
-
 
 module.exports = coverWordSets

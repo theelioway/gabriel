@@ -65,7 +65,7 @@ function findCombinationToGoal() {
       if (itemWeight <= remainingWeight) {
         recursiveSearch(
           [...currentCombination, item],
-          remainingWeight - itemWeight
+          remainingWeight - itemWeight,
         )
 
         if (result !== null) {

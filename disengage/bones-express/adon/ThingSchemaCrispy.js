@@ -22,7 +22,7 @@ function thingSchema(schemaName) {
     let extraPrimitives = EXTRA_PRIMITIVE.split(",")
     let crispy = new CrispyMongoose(
       SCHEMA["@graph"],
-      "http://schema.org/" // extraPrimitiveList
+      "http://schema.org/", // extraPrimitiveList
     )
     let baseModels = bones
 

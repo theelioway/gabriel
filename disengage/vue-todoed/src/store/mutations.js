@@ -22,7 +22,7 @@ export default {
   },
   [MUTATIONS.UNLIST](state, thingId) {
     let thing = state.thing.List.itemListElement.find(
-      (thing) => thing.id === thingId
+      (thing) => thing.id === thingId,
     )
     state.recycle.push(thing)
     let thingIndex = state.thing.List.itemListElement.indexOf(thing)
@@ -31,7 +31,7 @@ export default {
   [MUTATIONS.EDIT](state, { thingId, field, val }) {
     console.log({ thingId, field, val })
     let thing = state.thing.List.itemListElement.find(
-      (thing) => thing.id === thingId
+      (thing) => thing.id === thingId,
     )
     thing[field] = val
     console.log(thing[field])

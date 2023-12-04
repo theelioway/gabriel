@@ -4,7 +4,7 @@ const dontforgetthemilkTheeliowayCom = require("../dontforgetthemilk-theelioway-
 describe("module | dontforgetthemilkTheeliowayCom", function (hooks) {
   it("fetches dontforgetthemilkTheeliowayCom", () => {
     dontforgetthemilkTheeliowayCom().should.equal(
-      "dontforgetthemilk-theelioway-com"
+      "dontforgetthemilk-theelioway-com",
     )
   })
 })

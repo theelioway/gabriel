@@ -35,7 +35,7 @@ export default {
               engaged: "Thing",
             },
           },
-        })
+        }),
     ),
   },
   engaged: "Thing",

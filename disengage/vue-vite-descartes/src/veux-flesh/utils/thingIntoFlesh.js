@@ -121,6 +121,6 @@ export default function thingIntoFlesh(fleshFromBone, valuesBucketFromBone) {
       // })
       return reducedToThis
     },
-    new Array()
+    new Array(),
   )
 }

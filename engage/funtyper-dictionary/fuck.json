@@ -1,1249 +1,505 @@
 [
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "as",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "sal",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "alas",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "las",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "lass",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "salsa",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "all",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "alls",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "sals",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "ashfalls",
     "currentWordCovered": false
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "al",
     "currentWordCovered": true
   },
   {
     "rank": 0,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";"],
     "currentWord": "la",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "skald",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "skalds",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "ask",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "asks",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "lad",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "lads",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "sad",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "dad",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "dads",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "alaska",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "alaskas",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "salad",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "salads",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "add",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "adds",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "dal",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "ad",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "ads",
     "currentWordCovered": true
   },
   {
     "rank": 1,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k"],
     "currentWord": "ashfalls",
     "currentWordCovered": false
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "flask",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "flasks",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "flak",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "flaks",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "jafa",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "jafas",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "jass",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "daff",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "daffs",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "fall",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "falls",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "fad",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "fads",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "jak",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "jaks",
     "currentWordCovered": true
   },
   {
     "rank": 2,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j"],
     "currentWord": "ashfalls",
     "currentWordCovered": false
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "flag",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "flags",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "glass",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "flash",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gaff",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gaffs",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "glad",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "glads",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "saga",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "sagas",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gala",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "galas",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gall",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "galls",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gal",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gals",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "lag",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "lags",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "sag",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "sags",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "gas",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "hash",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "had",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "hall",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "halls",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "halal",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "dash",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "ash",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "has",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "jag",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "jags",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "ashfall",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "ashfalls",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "shall",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "slash",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "lash",
     "currentWordCovered": true
   },
   {
     "rank": 3,
-    "currentLetterSet": [
-      "a",
-      "s",
-      "l",
-      ";",
-      "d",
-      "k",
-      "f",
-      "j",
-      "g",
-      "h"
-    ],
+    "currentLetterSet": ["a", "s", "l", ";", "d", "k", "f", "j", "g", "h"],
     "currentWord": "sash",
     "currentWordCovered": true
   },
